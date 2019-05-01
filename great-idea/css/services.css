@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 850px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 850px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: grey;
+}
+
+nav img {
+    float: right;
+    position: relative;
+    top: -25px;
+}
+
+.services {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.services H1 {
+    font-size: 25px;
+
+}
+
+hr {
+    width: 850px;
+    border-top: 1px solid black;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 45%;
+    /* explanation below */
+    margin: 10px;
+    height: 200px;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid black;
+}
+
+.card h2 {
+    margin: 10px;
+}
+
+.card p {
+    margin: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 12px;
+    background: white;
+    color: black;
+}
+
+.facts {
+    margin-top: 20px;
+    display: flex;
+}
+
+.facts ul {
+    list-style-type: square;
+    padding-top:10px;
+    padding-left: 20px;
+}
+
+.facts-rows {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 40px;
+}
